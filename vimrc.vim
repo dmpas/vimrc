@@ -10,6 +10,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'OrangeT/vim-csharp'
 Plugin 'dmpas/OneScriptVim'
 Plugin 'udalov/kotlin-vim'
+Plugin 'ekalinin/Dockerfile.vim'
 
 call vundle#end()
 
