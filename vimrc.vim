@@ -23,6 +23,12 @@ set iminsert=0
 set imsearch=0
 highlight lCursor guifg=NONE guibg=Cyan
 
+nnoremap <F9> :!oscript %:t<CR>
+inoremap <F9> <Esc>:!oscript %:t<CR>
+
+nnoremap <F2> :write<CR>
+inoremap <F2> <Esc>:write<CR>i
+
 syntax on
 
 set tabstop=4
