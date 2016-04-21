@@ -39,4 +39,6 @@ colorscheme evening
 
 set number
 set autoindent
+set nowrap
+set shiftwidth=4
 
