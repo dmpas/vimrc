@@ -12,10 +12,13 @@ Plugin 'OrangeT/vim-csharp'
 Plugin 'dmpas/OneScriptVim'
 Plugin 'udalov/kotlin-vim'
 Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'dmpas/oscript-tagbar'
 
 call vundle#end()
 
 filetype plugin indent on
+
+nmap <F8> :TagbarToggle<CR>
 
 noremap <C-n> :NERDTreeToggle<CR>
 set keymap=russian-jcukenwin
