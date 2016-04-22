@@ -32,6 +32,8 @@ inoremap <F9> <Esc>:!oscript %:t<CR>
 nnoremap <F2> :write<CR>
 inoremap <F2> <Esc>:write<CR>i
 
+nmap <C-x>x :qall!<CR>
+
 syntax on
 
 set tabstop=4
