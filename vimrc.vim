@@ -13,6 +13,8 @@ Plugin 'dmpas/OneScriptVim'
 Plugin 'udalov/kotlin-vim'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'dmpas/oscript-tagbar'
+Plugin 'vim-airline/vim-airline'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 call vundle#end()
 
