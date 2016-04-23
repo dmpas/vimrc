@@ -35,6 +35,7 @@ nnoremap <F2> :write<CR>
 inoremap <F2> <Esc>:write<CR>i
 
 nmap <C-x>x :qall!<CR>
+nmap <C-x><C-x> :qall!<CR>
 
 syntax on
 
