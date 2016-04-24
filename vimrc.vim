@@ -15,6 +15,7 @@ Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'dmpas/oscript-tagbar'
 Plugin 'vim-airline/vim-airline'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'tfnico/vim-gradle'
 
 call vundle#end()
 
