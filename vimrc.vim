@@ -16,6 +16,7 @@ Plugin 'dmpas/oscript-tagbar'
 Plugin 'vim-airline/vim-airline'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tfnico/vim-gradle'
+Plugin 'sjl/badwolf'
 
 call vundle#end()
 
@@ -41,7 +42,7 @@ nmap <C-x><C-x> :qall!<CR>
 syntax on
 
 set tabstop=4
-colorscheme evening
+colorscheme badwolf
 
 set number
 set autoindent
