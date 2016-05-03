@@ -49,3 +49,6 @@ set autoindent
 set nowrap
 set shiftwidth=4
 
+set listchars=tab:▸\ ,trail:·
+set list
+
