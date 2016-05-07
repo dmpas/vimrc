@@ -17,6 +17,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tfnico/vim-gradle'
 Plugin 'sjl/badwolf'
+Plugin 'leafgarland/typescript-vim'
 
 call vundle#end()
 
@@ -34,7 +35,7 @@ nnoremap <F9> :!oscript %:t<CR>
 inoremap <F9> <Esc>:!oscript %:t<CR>
 
 nnoremap <F2> :write<CR>
-inoremap <F2> <Esc>:write<CR>i
+inoremap <F2> <Esc>:write<CR>
 
 nmap <C-x>x :qall!<CR>
 nmap <C-x><C-x> :qall!<CR>
