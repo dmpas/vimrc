@@ -19,6 +19,9 @@ Plugin 'tfnico/vim-gradle'
 Plugin 'sjl/badwolf'
 Plugin 'leafgarland/typescript-vim'
 
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+
 call vundle#end()
 
 filetype plugin indent on
@@ -52,4 +55,6 @@ set shiftwidth=4
 
 set listchars=tab:▸\ ,trail:·
 set list
+
+let g:jsx_ext_required = 0
 
