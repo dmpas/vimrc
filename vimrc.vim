@@ -58,3 +58,8 @@ set list
 
 let g:jsx_ext_required = 0
 
+let g:net_framework_top = "/usr/bin/"
+let g:net_framework_version = "4.0"
+let g:net_framework_compiler_executable = "mono-csc"
+let g:net_framework_build_executable = "xbuild"
+
