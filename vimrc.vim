@@ -40,6 +40,8 @@ inoremap <F9> <Esc>:!oscript %:t<CR>
 nnoremap <F2> :write<CR>
 inoremap <F2> <Esc>:write<CR>
 
+set pastetoggle=<F3>
+
 nmap <C-x>x :qall!<CR>
 nmap <C-x><C-x> :qall!<CR>
 
