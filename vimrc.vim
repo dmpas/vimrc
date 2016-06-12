@@ -63,3 +63,5 @@ let g:net_framework_version = "4.0"
 let g:net_framework_compiler_executable = "mono-csc"
 let g:net_framework_build_executable = "xbuild"
 
+" Чтобы не ругалось на строку из табов, что часто встречается в исходниках на ОдноСкрипте
+autocmd filetype onescript let g:airline#extensions#whitespace#trailing_regexp = ' $'
