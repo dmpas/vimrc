@@ -67,3 +67,8 @@ let g:net_framework_build_executable = "xbuild"
 
 " Чтобы не ругалось на строку из табов, что часто встречается в исходниках на ОдноСкрипте
 autocmd filetype onescript let g:airline#extensions#whitespace#trailing_regexp = ' $'
+
+autocmd filetype onescript imap <silent> ()() []<Esc>i
+autocmd filetype onescript imap <silent> ((( [
+autocmd filetype onescript imap <silent> ))) ]
+
