@@ -18,6 +18,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tfnico/vim-gradle'
 Plugin 'sjl/badwolf'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'rust-lang/rust.vim'
 
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
