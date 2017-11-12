@@ -51,6 +51,7 @@ syntax on
 
 set tabstop=4
 colorscheme badwolf
+colorscheme darcula-nobold
 
 set number
 set autoindent
